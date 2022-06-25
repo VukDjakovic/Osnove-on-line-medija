@@ -1,0 +1,90 @@
+.header {
+	border-bottom:2px solid;
+	color:sienna;
+}
+
+body {
+	margin:0px;
+	padding:0px;
+	background:sandybrown;
+}
+
+.naziv-wrapper {
+	width:100%;
+	padding:10px 0;
+	background:khaki;
+}
+
+.naziv {
+	text-align:center;
+	font-size:70px;
+	font-family: "Brush Script MT", Brush Script STD, cursive;
+	background:khaki;
+}
+
+.navigation {
+	display:flex;
+	border-top:2px solid;
+	color:sienna;
+}
+
+.navigation a {
+	flex-grow:1;
+	text-align:center;
+	display:block;
+	padding:10px 0;
+	font-family: "Brush Script MT", Brush Script STD, cursive;
+	font-size:30px;
+	text-decoration:none;
+	color:saddlebrown;
+	background:sandybrown;
+	transition:400ms;
+}
+
+.navigation a:hover {
+	background:chocolate;
+	color:maroon;
+}
+
+.content-wrapper {
+	display:flex;
+	width:100%
+}
+
+.content {
+	text-align:center;
+	display:block;
+}
+
+.grid {
+	width:100%;
+}
+
+.instrument {
+	width:100%;
+}
+
+.instrument img {
+	width:70%;
+	height:70%;
+	object-fit:cover;
+}
+
+.instrument img:hover {
+	border:4px solid saddlebrown;
+}
+
+.instrument-name {
+	text-align:center;
+	font-size:15px;
+	margin:3px;
+	padding0;
+	font-family: "Brush Script MT", Brush Script STD, cursive;
+	font-size:30px;
+}
+
+.instrument-info {
+	text-align:center;
+	font-family: "Brush Script MT", Brush Script STD, cursive;
+	font-size:25px;
+}

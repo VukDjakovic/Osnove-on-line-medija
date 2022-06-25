@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="srb">
+ <head>
+  <title>Kontakt | Music Planet</title>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="css/kontakt.css">
+ </head>
+
+ <body>
+  <div class="header">
+   <id class="naziv-wrapper">
+  <h1 class="naziv">Music Planet</h1>
+  </id>
+  </div>
+  <nav class="navigation">
+   <a href="index.html">Početna</a>
+   <a href="proizvodi.html">Proizvodi</a>
+   <a href="kontakt.html">Kontakt</a>
+  </nav>
+  </div>
+
+  <div class="contact-wrapper">
+   <div class="contact-form">
+   <form onsubmit="posaljiPodatke()">
+    <label for="firstName">Ime:</label>
+    <input type="text" name="firstName" id="contactFirstName" placeholder="Ime" autofocus required/>
+    <label for="lastName">Prezime:</label>
+    <input type="text" name="lastName" id="contactLastName" placeholder="Prezime" required/>
+    <label for="email">E-mail:</label>
+    <input type="email" name="email" id="contactEmail" placeholder="E-mail" required/>
+    <label for="message">Poruka:</label>
+    <textarea name="message" id="contactMessage" placeholder="Vasa poruka" minlength="10" required></textarea>
+    <div class="bottom-div">
+     <div class="item">
+      <span class="checkbox-text">Da li želite da vas obaveštavamo kada dobijemo nove proizvode?</span>
+      <input class="checkbox" type="checkbox" onclick="prikaziPoruku()">
+      <span class="hidden">Obaveštenja ćete dobiti na Vašoj e-mail adresi!</span>
+     </div>
+    </div>
+    <button type="submit" id="btnSubmit" name="btnSubmit">Submit</button>
+    <div class="clearfix"></div>
+    </form>
+    </div>
+    <div class="clearfix"></div>
+    </div>
+    </div>
+    </div>
+ </div>
+</div>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+img {
+	height:40%;
+	width:40%;
+	object-fit:cover;
+}
+
+.header {
+	border-bottom:2px solid;
+	color:sienna;
+}
+
+body {
+	margin:0px;
+	padding:0px;
+	background:khaki;
+}
+
+.naziv-wrapper {
+	width:100%;
+	background:white;
+	padding:10px 0;
+}
+
+.naziv {
+	text-align:center;
+	font-size:55px;
+	font-family: "Brush Script MT", Brush Script STD, cursive;
+}
+
+.navigation {
+	display:flex;
+	border-top:2px solid;
+	color:sienna;
+}
+
+.navigation a {
+	flex-grow:1;
+	text-align:center;
+	display:block;
+	padding:10px 0;
+	font-family: "Brush Script MT", Brush Script STD, cursive;
+	font-size:30px;
+	text-decoration:none;
+	color:saddlebrown;
+	background:sandybrown;
+	transition:400ms;
+}
+
+.navigation a:hover {
+	background:chocolate;
+	color:maroon;
+}
+
+.instrumenti {
+	text-align:center;
+	display:block;
+	font-family: "Brush Script MT", Brush Script STD, cursive;
+	font-size:45px;
+	text-decoration:none;
+	color:black;
+}
+
+.instrumenti img {
+	border-bottom:7px solid;
+	color:sienna;
+}
+
+.instrumenti img:hover {
+	border:4px solid saddlebrown;
+}
+
+.button-wrapper {
+	width:100%;
+}
+
+.btn {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
